@@ -7,6 +7,7 @@ body{
 .top-box{
     display: flex;
     padding: 10px;
+    margin-bottom: 100px;
 }
 .top-halfwidth-box{
     width: 50%;
@@ -16,7 +17,7 @@ body{
     color: #3c9af1;
 }
 .top-halfwidth-box img{
-    width: 80%;
+    width: 100%;
 }
 .top-halfwidth-box h1 {
     font-size: 34px;
@@ -36,3 +37,26 @@ body{
     border-radius: 50px;
 }
 /* top 1st box end */
+
+/* second section start */
+.about-me-section{
+    display: flex;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 45px;
+}
+.halfwith-aboutme{
+    width: 50%;
+    line-height: 52px;
+}
+.halfwith-aboutme h1 {
+    color: #5d5a5a;
+}
+.halfwith-aboutme img{
+    width: 70%;
+}
+.right-text {
+    padding: 64px 0 0 80px;
+}
+/* second section end */
