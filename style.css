@@ -90,6 +90,54 @@ body{
 }
 /* third part end */
 
+/* fourth part start */
+.contact-box{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.content-box{
+    display: flex;
+}
+.contactbox-img{
+    width: 25%;
+    padding: 105px;
+}
+.contactbox-img img{
+    width: 100%;
+    border-radius: 200px;
+}
+.contact-form{
+    width: 50%;
+    background-color: rgb(0 0 0 / 36%);
+    font-size: 18px;
+}
+.contact-form h2 {
+    text-align: center;
+    padding: 12px;
+}
+#contact-us {
+    margin: 20px 45px;
+}
+label{
+    color: white;
+}
+input#name {
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid #ddd;
+}
+input#submit {
+    padding: 10px 40px;
+    font-size: 17px;
+    border-radius: 7px;
+    background-color: #e4702be3;
+    color: white;
+}
+/* fourth part end */
+
 /* footer start */
 footer{
     background-color: black;
